@@ -1,0 +1,18 @@
+body {
+    background-image: url("Neko.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+p {
+    color:antiquewhite
+}
+
+.dotted {
+border: 1px dotted #ff5d3b;
+}
+.dashed {
+    border: 1px dashed #ff5d3b;
+    padding: 16px;
+}
+

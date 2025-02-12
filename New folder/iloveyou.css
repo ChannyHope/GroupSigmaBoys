@@ -1,0 +1,30 @@
+header {
+    padding: 3%;
+    background-color: rgb(163, 226, 215);
+    text-align: center;
+}
+.container {
+    display: flex;
+}
+.box {
+    margin: 25px;
+    background-color: black;
+    color: white;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    min-width: 5%;
+    min-height: 5%;
+}
+
+
+main {
+    background-color: black;
+    padding: 20px 20px 20px 20px
+}
+
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }

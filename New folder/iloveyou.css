@@ -3,9 +3,34 @@ header {
     background-color: rgb(163, 226, 215);
     text-align: center;
 }
-.container {
-    display: flex;
+.section{
+    background-color: antiquewhite;
 }
+.sigma {
+    display: flex;
+    text-align: center;
+    background-color: darksalmon;
+    background-image: url(6999296.jpg);
+    background-position: center;
+
+}
+.scrollmenu {
+    display: flex;         
+  overflow-y: auto;         
+  white-space: nowrap; 
+  padding: 10px;
+  gap: 10px;
+ 
+
+}
+.scrollmenu img {
+ width: 150px;
+
+}
+.scrollmenu img.hover{
+    transform: scale(1.1);
+}
+
 .box {
     margin: 25px;
     background-color: black;
@@ -15,6 +40,14 @@ header {
     min-width: 5%;
     min-height: 5%;
 }
+section{
+    background-color: antiquewhite;
+}
+.dotted {
+border: 5px dotted orange;
+
+}
+    
 
 
 main {
@@ -22,9 +55,55 @@ main {
     padding: 20px 20px 20px 20px
 }
 
+
 footer {
-    background-color: #777;
-    padding: 10px;
-    text-align: center;
+    background-color: #333;
     color: white;
+    padding: 50px;
+    text-align: center;
+    font-family: Arial, sans-serif;
   }
+
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  footer p {
+    margin: 5px;
+    font-size: 14px;
+  }
+  
+  .social-media {
+    margin-top: 15px;
+  }
+  
+  .social-media a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .social-media a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .footer-container {
+      padding: 0 10px;
+    }
+  
+    footer p {
+    font-size: 12px;
+    }
+    .social-media {
+      margin-top: 15px;
+    }
+  
+ .social-media a {
+      font-size: 12px;
+    }
+  }
+  
